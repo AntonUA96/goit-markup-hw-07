@@ -10,6 +10,11 @@
   padding-bottom: 32px;
   padding-top: 32px;
   color: $primary-text-color;
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+  }
 }
 
 nav {
@@ -64,11 +69,6 @@ header .container {
   position: relative;
 }
 
-.navigation-items:hover,
-.navigation-items:focus {
-  color: $hover-color;
-}
-
 /* КОНТАКТЫ ШАПКИ */
 
 .header-contacts {
@@ -79,11 +79,11 @@ header .container {
   letter-spacing: 0.02em;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-contacts:hover,
-.header-contacts:focus {
-  color: $hover-color;
+  &:hover,
+  &:focus {
+    color: $hover-color;
+  }
 }
 
 .header-contacts-list .item {
@@ -98,8 +98,9 @@ header .container {
   fill: $title-text-color;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-contacts:hover .header-contacts-svg,
-.header-contacts:focus .header-contacts-svg {
-  fill: $hover-color;
+
+  .header-contacts:hover &,
+  .header-contacts:focus & {
+    fill: $hover-color;
+  }
 }

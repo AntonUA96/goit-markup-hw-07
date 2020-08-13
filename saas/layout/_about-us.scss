@@ -5,10 +5,11 @@
 .about-us-list {
   display: flex;
   justify-content: space-between;
-}
-.about-us-list .item {
-  width: 270px;
-  height: 251px;
+
+  .item {
+    width: 270px;
+    height: 251px;
+  }
 }
 
 .about-us-img {
