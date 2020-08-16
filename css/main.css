@@ -522,7 +522,7 @@ template {
 .logo {
   margin-right: 85px;
   color: #2196f3;
-  font-family: Raleway;
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -748,7 +748,7 @@ header .container {
 }
 
 .our-team-list .card {
-  width: 270 px;
+  width: 270px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
@@ -936,7 +936,7 @@ footer .container {
 
 .join-in {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -959,7 +959,7 @@ footer .container {
   background-color: transparent;
   height: 50px;
   width: 358px;
-  padding: 0em;
+  padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1083,7 +1083,7 @@ html {
 }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: $main-font;
   letter-spacing: 0.03em;
   background-color: #ffffff;
 }
